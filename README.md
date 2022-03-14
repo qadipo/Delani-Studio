@@ -1,4 +1,5 @@
 # Introduction
+#### Author: *Q Adipo*
 
 This project is aimed at testing my mastery of Bootstrap and jQuery. At the end of day the website recreated should be as below:
 

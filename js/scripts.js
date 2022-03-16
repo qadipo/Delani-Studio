@@ -1,6 +1,6 @@
 // Feedback from the form
 $(document).ready(function(){
-    $("div#desc1").hide();
+    $("#desc1").hide();
     $("div#desc2").hide();
     $("div#desc3").hide();
     $("div#desc4").hide();
@@ -43,6 +43,7 @@ $(document).ready(function(){
         }
 
     });
+    
 
     // HOVER effect on the portfolio
     //On mouse hoover, the title is shown on each portfolio project.
@@ -94,6 +95,38 @@ $(document).ready(function(){
     })
     .mouseout(function(){
         $("div#desc8").hide();
+
     });
 
+
+
+
+    $('#portfolio1 img').hover(function () {
+        $(this).stop().animate({
+            opacity: .3
+        }, 100);
+        $('.text0').removeClass('hide');
+    }, function () {
+        $(this).stop().animate({
+            opacity: 1}, 600);
+        $('.text0').addClass('hide');
+    });
+
+
+
+   $(".designContent").hide();
+   $(".designImg, .designContent").on("click", function(){
+       $(".designImg, .designContent").toggle();
+   });
+   $(".devContent").hide();
+   $(".devImg, .devContent").on("click", function(){
+       $(".devImg, .devContent").toggle();
+   });
+   $(".designContent").hide();
+   $(".productImg, .productContent").on("click", function(){
+       $(".productImg, .productContent").toggle();
+   });
+
+
+        
 });

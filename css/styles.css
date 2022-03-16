@@ -44,9 +44,29 @@
     border: 2px whitesmoke;
     border-radius: 4px;
   }
-  .desc1{
-      position: relative;
-      top: 50%;
-      
-  }
+.desc1{
+    position: absolute;
+    top: 10%
+    z-index:1;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#portfolio1{
+    position: relative;
+}
  
+  .text0,.text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8{
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    left:40%;
+    top: 40%;
+  }
+  .hide {
+    display: none;
+  }
+.designContent, .devContent, .productContent{
+    display: none;
+}
+

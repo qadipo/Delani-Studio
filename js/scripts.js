@@ -97,10 +97,6 @@ $(document).ready(function(){
         $("div#desc8").hide();
 
     });
-
-
-
-
     $('#portfolio1 img').hover(function () {
         $(this).stop().animate({
             opacity: .3
@@ -111,8 +107,6 @@ $(document).ready(function(){
             opacity: 1}, 600);
         $('.text0').addClass('hide');
     });
-
-
 
    $(".designContent").hide();
    $(".designImg, .designContent").on("click", function(){
@@ -126,7 +120,4 @@ $(document).ready(function(){
    $(".productImg, .productContent").on("click", function(){
        $(".productImg, .productContent").toggle();
    });
-
-
-        
 });

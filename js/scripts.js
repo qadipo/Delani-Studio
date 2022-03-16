@@ -21,3 +21,54 @@ $(document).ready(function(){
     });
 });
 
+// HOVER effect on the portfolio
+//On mouse hoover, the title is shown on each portfolio project.
+$('div#portfolio1').mouseover(function(){
+    $('div#desc1').show();
+})
+.mouseout(function(){
+    $('div#desc1').hide();
+})
+$('div#portfolio2').mouseover(function(){
+    $('div#desc2').show();
+})
+.mouseout(function(){
+    $('div#desc2').hide();
+})
+$('div#portfolio3').mouseover(function(){
+    $('div#desc3').show();
+})
+.mouseout(function(){
+    $('div#desc3').hide();
+})
+$('div#portfolio4').mouseover(function(){
+    $('div#desc4').show();
+})
+.mouseout(function(){
+    $('div#desc4').hide();
+})
+$('div#portfolio5').mouseover(function(){
+    $('div#desc5').show();
+})
+.mouseout(function(){
+    $('div#desc5').hide();
+})
+
+$('div#portfolio6').mouseover(function(){
+    $('div#desc6').show();
+})
+.mouseout(function(){
+    $('div#desc6').hide();
+})
+$('div#portfolio7').mouseover(function(){
+    $('div#desc7').show();
+})
+.mouseout(function(){
+    $('div#desc7').hide();
+})
+$('div#portfolio8').mouseover(function(){
+    $('div#desc8').show();
+})
+.mouseout(function(){
+    $('div#desc8').hide();
+});

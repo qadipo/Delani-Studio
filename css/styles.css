@@ -34,7 +34,7 @@
  .contact-us {
      position: relative;
      top: 50%;
-     transform: translate(0%, -200%);
+     transform: translate(0%, -180%);
      /* height: 40%; */
  }
  .transbox {
@@ -44,3 +44,9 @@
     border: 2px whitesmoke;
     border-radius: 4px;
   }
+  .desc1{
+      position: relative;
+      top: 50%;
+      
+  }
+ 

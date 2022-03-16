@@ -1,7 +1,15 @@
 // Feedback from the form
-
 $(document).ready(function(){
-    $("myForm").keydown(function(){
+    $("div#desc1").hide();
+    $("div#desc2").hide();
+    $("div#desc3").hide();
+    $("div#desc4").hide();
+    $("div#desc5").hide();
+    $("div#desc6").hide();
+    $("div#desc7").hide();
+    $("div#desc8").hide();
+
+    $("myForm").keypress(function(e){
         var name = $("#name").val();
         var email = $("name").val();
         var message = $("message").val();
@@ -18,6 +26,22 @@ $(document).ready(function(){
                 alert("Hello " + name + " We have received your messege. Thanks for reaching out to us."); 
             }
         }
+    });
+    $("#submit").click(function(){        
+        var jina = $("#name").val();
+        var pepe = $("#email").val();
+        var ujumbe = $("#message").val();
+
+        if(jina == ""){
+            alert("Name is missing!");
+        } else if (pepe == "") {
+            alert("Email Address is missing!");
+        } else if (ujumbe == ""){
+            alert("Message is missing!");
+        } else {
+            alert("Hello " + jina + " We have received your messege. Thanks for reaching out to us.")
+        }
+
     });
 
     // HOVER effect on the portfolio
@@ -71,5 +95,5 @@ $(document).ready(function(){
     .mouseout(function(){
         $("div#desc8").hide();
     });
-});
 
+});

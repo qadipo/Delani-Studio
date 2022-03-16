@@ -15,4 +15,4 @@ As such the project will also focus on:
 3. Use mail chimp API to track all the emails and messages from your users.
 
 # Live Pages
-To see what has been recreated click [here]()
+To see what has been recreated click [here](https://qadipo.github.io/Delani-Studio/)
